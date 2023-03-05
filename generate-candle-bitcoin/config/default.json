@@ -1,0 +1,15 @@
+{
+    "App":{
+        "port": 3333,
+        "database": {
+            "mongoUrl": "mongodb://localhost:27017/finance-with-rabbitmq"
+        },
+        "rabbitmq":{
+            "amqp_server": "amqp://dev:senhadev@localhost:5672",
+            "queue_name":"candles"
+        },
+        "clients":{
+            "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
+        }
+    }
+}

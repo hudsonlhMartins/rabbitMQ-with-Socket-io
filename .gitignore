@@ -1,0 +1,9 @@
+./finance-api/node_modules/
+./front-end/node_modules/
+./generate-candle-bitcoin/node_modules/
+
+/finance-api/node_modules/
+/front-end/node_modules/
+/generate-candle-bitcoin/node_modules/
+
+node_modules/
